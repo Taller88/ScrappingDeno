@@ -32,11 +32,6 @@ export const execScrapping = async ({context}:{context:any}) =>{
 
         };
 
-        console.log(input.Module)
-        console.log(input.Job)
-        console.log(input.Input.userName)
-        console.log(input.Input.phoneNum)
-        console.log(input.Input.ssn2)
 
         if(!input.Input.userName || !input.Input.phoneNum || !input.Input.ssn1 || !input.Input.ssn2 ){
             console.log("input is empty")
