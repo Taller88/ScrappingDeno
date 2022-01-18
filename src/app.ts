@@ -6,6 +6,7 @@ import staticFiles from "https://deno.land/x/static_files@1.1.4/mod.ts"
 class App {
   app;
 
+  //생성자
   constructor() {
     this.app = new Application();
 
@@ -14,6 +15,7 @@ class App {
     this.initializeRouting();
   }
 
+  //서버 open
   listen() {
     console.log("http://localhost:5000/ 5000 port open")
     this.app.listen({ port: 5000 });
